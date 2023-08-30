@@ -9,10 +9,10 @@ public class Pessoa {
     Contato contato;
     
     // Construtor de Cliente e Funcionario 
-    public Pessoa(int id, String nome, String cpf, Endereco endereco, int dataNascimento) {
+    public Pessoa(int id, String nome, int cpf2, Endereco endereco, int dataNascimento) {
         this.id = id;
         this.nome = nome;
-        this.cpf = cpf;
+        this.cpf = cpf2;
         this.endereco = endereco;
         this.dataNascimento = dataNascimento;
     }

@@ -1,5 +1,7 @@
 package com.cinema.poo.entities;
 
+import enums.UnidadeFederal;
+
 public class Endereco {
     int id;
     String logradouro;
@@ -8,7 +10,7 @@ public class Endereco {
     int cep;
     String bairro;
     String cidade;
-    String uf;
+    private UnidadeFederal uf;
     
     public Endereco(int id, String logradouro, int numero, String complemento, int cep, String bairro, String cidade,
             String uf) {
